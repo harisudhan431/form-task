@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <p class="h2 bg-dark text-white ">Student Registration Form</p>
+        <div class="tables">
+        <form >
+       
+            <table>
+                <tr>
+           <td> <label>Roll No</label></td>
+           <td>:</td>
+            <td><input type="text" placeholder="720721104088" required></td></tr>
+            <tr>
+                <td> <label>Name</label></td>
+                <td>:</td>
+                 <td><input type="text" placeholder="HARISUDHAN"></td></tr>
+                 <tr>
+                    <td> <label>Department</label></td>
+                    <td>:</td>
+                     <td>
+                        <select name="dept" required>
+                            <option value="">select</option>
+                            <option value="cse">Computer Science</option>
+                            <option value="IT">InformationTechnology</option>
+                            <option value="aiml">Aritifical</option>
+                            <option value="ece">ElectronicsCommunication</option>
+                        </select>
+                     </td></tr>
+                     <tr>
+                        <td> <label>10th Mark</label></td>
+                        <td>:</td>
+                         <td><input type="number" placeholder="98%" required></td></tr>
+                         <tr>
+                            <td> <label>12th Mark</label></td>
+                            <td>:</td>
+                             <td><input type="number"  placeholder="99%" required></td></tr>
+                             <tr>
+                                <td> <label>Degree Percentage</label></td>
+                                <td>:</td>
+                                 <td><input type="number" placeholder="9.18" required></td></tr>
+                  
+        </table>
+    
+            <button type="submit">Submit</button>
+            <button type="cancel">Cancel</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

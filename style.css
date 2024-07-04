@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+   
+}
+.container-fluid{
+    background-color: rgb(222, 222, 45);
+}
+input:focus{
+    background-color: aqua;
+}
+button{
+    color: white;
+    background-color: black;
+    /* padding: 0px; */
+    margin: 10px 0px 0px 50px;
+    border: solid 2px yellow;
+}
+button:hover{
+    background-color: rgb(175, 47, 47);
+    
+}
+.h2{
+    text-align: center;
+}
+ .tables{
+    padding: 20px 35%;
+} 
+@media (min-width:375px) and (max-width:600px) {
+    .tables{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .container-fluid{
+        background-color: coral;
+    }
+    
+}
